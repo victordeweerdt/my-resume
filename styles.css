@@ -1,0 +1,35 @@
+/* FONTS */
+@import url(//db.onlinewebfonts.com/c/ee5e0963d4f220cba32a5765cc4f9772?family=PingFang+HK);
+@font-face {font-family: "PingFang HK"; src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot"); src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff") format("woff"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.svg#PingFang HK") format("svg"); }
+
+
+body
+{
+    font-family: "PingFang HK", sans-serif;
+    color: #4A4A4A;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+/* Elements */
+
+#img-profil
+{
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    background: url(img/Victor_Deweerdt_profil.jpg) no-repeat;
+}
