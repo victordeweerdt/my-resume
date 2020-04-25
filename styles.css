@@ -3,33 +3,229 @@
 @font-face {font-family: "PingFang HK"; src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot"); src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff") format("woff"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.svg#PingFang HK") format("svg"); }
 
 
+
+main
+{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+}
+
 body
 {
     font-family: "PingFang HK", sans-serif;
     color: #4A4A4A;
+    margin:0;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+#formation, #experiences, #recommandations 
+{
+    padding-left: 7.8%;
+    padding-right: 5.9%;
+}
+
+#right-side header
+{
+    padding-left: 7.8%;
+    padding-right: 5.9%;
+}
+
+section
+{
+    
+}
+
+#left-side header
+{
+    display: flex;
+    padding: 0 4%;
+}
+
+.text
+{
+    padding: 0 12.5%;
+    padding-top: 1vh;
+}
+
+.head-light
+{
+    display: flex;
+    border-bottom: 2px solid #EDC545;
+    margin-bottom: 3.5vh;
+    
 }
 
 h1
 {
-    font-size: 2em;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight:600;
 }
 
-h1
+#left-side h1
 {
-    font-size: 1.5em;
+    background-color: #404040;
+    padding: 1.6vh 0 1.1vh 0;
+    text-align: center;
+    color: #EDC545;
+}
+
+h1 span
+{
+    font-size: 3.75rem;
+    font-weight: 500;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+h3
+{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight:500;
 }
 
 p
 {
-    font-size: 1em;
+    font-size: 1rem;
+    margin: 15px 0;
+    line-height: 1.375rem;
+}
+
+header p
+{
+    font-size: 1.75rem
+}
+
+#a-propos p
+{
+    text-align: justify;
+}
+
+/* Grid */
+
+#left-side
+{
+    width: 32%;
+    background-color: #EDC545;
+    padding-top:6vh;
+}
+
+#right-side
+{
+    width: 68%;
+    padding-top:12vh;
+}
+
+.row
+{
+    width: 100%;
+    display: flex;
+}
+
+.left-bloc
+{
+    width:35.3%;
+}
+
+.right-bloc
+{
+    width:64.7%;
+}
+
+.col-6
+{
+    width:50%;
+}
+
+.col-4
+{
+    width:33.2%;
+}
+
+.col-3
+{
+    width:25%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Elements */
 
 #img-profil
 {
-    width:100px;
-    height: 100px;
-    border-radius: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
     background: url(img/Victor_Deweerdt_profil.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #DAAF12;
+
+    margin:auto;  
+}
+
+#formation
+{
+    padding-top:10vh;
+}
+
+#experiences
+{
+    padding-top:6vh;
+}
+
+#recommandations
+{
+    padding-top:4vh;
+    padding-bottom:5vh;
+}
+
+#loisirs .row
+{
+    justify-content: center;
+}
+
+#loisirs
+{
+    padding-top:43vh;
+}
+
+.row.next
+{
+    padding-top:3.5vh;
+}
+
+.row.next2
+{
+    padding-top:1.5vh;
+}
+
+span .picto-1
+{
+    position: relative;
+    top: 2px;
+    padding-right: 6%;
+}
+
+span .picto-2
+{
+    position: relative;
+    top: 0px;
+    padding-right: 6%;
+}
+
+.second-line
+{
+    padding-left:10%;
+}
+
+.icon
+{
+    padding-right:4%;
 }
