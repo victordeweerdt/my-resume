@@ -1,6 +1,4 @@
-/* FONTS */
-@import url(//db.onlinewebfonts.com/c/ee5e0963d4f220cba32a5765cc4f9772?family=PingFang+HK);
-@font-face {font-family: "PingFang HK"; src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot"); src: url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.woff") format("woff"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ee5e0963d4f220cba32a5765cc4f9772.svg#PingFang HK") format("svg"); }
+
 
 
 
@@ -14,7 +12,7 @@ main
 
 body
 {
-    font-family: "PingFang HK", sans-serif;
+    font-family: Sans-serif;
     color: #4A4A4A;
     margin:0;
     max-width: 1190px;
@@ -68,7 +66,7 @@ section
 #right-side
 {
     width: 68%;
-    padding-top:12vh;
+    padding-top:10vh;
 }
 
 .row
@@ -257,7 +255,7 @@ header p
         padding-top:0;
     }
     h3 {
-        margin: 2vh 0;
+        margin: 15px 0;
     }
 }
 
@@ -415,6 +413,7 @@ span .picto-2
     }
     #loisirs .row {
         justify-content: left;
+        padding-top:2vh;
     }
     #formation {
         padding-top: 6vh;
