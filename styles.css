@@ -97,7 +97,7 @@ section
     }
     #left-side {
         padding-top:2vh;
-        padding-bottom:4vh;
+        padding-bottom:6vh;
     }
     .text {
         padding:0 0 0 4%;
@@ -253,6 +253,12 @@ header p
     #loisirs h1 {
         padding-left:0;
     }
+    #left-side header h1 {
+        padding-top:0;
+    }
+    h3 {
+        margin: 2vh 0;
+    }
 }
 
 /* Grid */
@@ -270,6 +276,7 @@ header p
 .col-6
 {
     width:50%;
+    padding-right: 5%;
 }
 
 .col-4
@@ -327,7 +334,7 @@ header p
 
 #formation
 {
-    padding-top:10vh;
+    padding-top:6vh;
 }
 
 #experiences
@@ -429,7 +436,7 @@ span .picto-2
         justify-content: center;
     }
     #img-profil {
-        width:25%;
+        margin:0 15px 0 0;
     }
     #loisirs element {
         padding-right: 15px;
