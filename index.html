@@ -6,180 +6,185 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="icomoon.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4f2d13b939.js" crossorigin="anonymous"></script>
         <title>Victor Deweerdt - CV</title>
 	
 
     </head>
 <body>
-        <main>
+        <main class="container">
             <!-- Partie de gauche -->
-            <div id="left-side">           
+            <div id="left-side" class="col-lg-4 nopadding">           
                 <!-- Header -->
-                    <header>
-                        <img id="img-profil">
-                        <div id="identity">
-                            <h1 class="author">
-                                    <span>Victor</span>
-                                    <span>Deweerdt</span>
-                            </h1>
-                            <p>Développeur web freelance</p>
-                        </div>
+                    <header class="justify-content-center d-flex pt-5">
+                        <div id="img-profil"></div>
                     </header>
                     
                     <!-- Section 1 : Contact -->
                     <div class="first-part">
-                    <div class="col-md-4 col-s-12">
-                    <section id="contact-mobile">
-                    <div>
-                        <h1>Contact</h1>
-                    </div>
-                    <div class="text">
-                        <p class="col-s-4">Adresse<br/>Nîmes, France</p>
-                        <p class="col-s-4">Téléphone<br/>06 85 27 55 03</p>
-                        <p class="col-s-4">Email<br/>vdeweerdt@gmail.com</p>
-                        <p class="col-s-4">Site web<br/>vdeweerdt/cv</p>
-                        <p class="col-s-4">Skype<br/>@victordeweerdt</p>
-                    </div>  
-                    </section>
-                    <section id="contact">
-                    <div>
-                        <h1>Contact</h1>
-                    </div>
-                    <div class="text">  
-                        <p>Adresse<br/>Nîmes, France</p>
-                        <p>Téléphone<br/>06 85 27 55 03</p>
-                        <p>Email<br/>vdeweerdt@gmail.com</p>
-                        <p>Site web<br/>vdeweerdt/cv</p>
-                        <p>Skype<br/>@victordeweerdt</p>
-                    </div>  
-                    </section>
-                    </div>
-                    <!-- Section 2 : À propos -->
-                    <div class="col-md-8 col-s-12">
-                    <section id="a-propos">
-                    <div>
-                        <h1>À propos de moi</h1>
-                    </div>
-                    <div class="text"> 
-                        <p>Directeur Artistique et Ui/Ux designer depuis 5 ans, j'ai travaillé pour de petites (Acsan, Edouard de Seine) et grandes entreprises (Galeries Lafayette, Allianz, Panasonic) avec des problématiques toujours différentes. Ces années m'ont permis de connaitre au mieux le travail de chaque acteur du digital. Ce qui rend mon expertise et ma vision cohérentes.</p>
-                    </div>
-                    </section>
+                            <section id="contact">
+                                    <h1 class="dark-title-v">Contact</h1>
+                                <div class="yellow-col">
+                                    <ul>
+                                        <li>Adresse</li>
+                                        <li>Nîmes, France</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Téléphone</li>
+                                        <li>06 85 27 55 03</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Email</li>
+                                        <li>vdeweerdt@gmail.com</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Site web</li>
+                                        <li>vdeweerdt/cv</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Skype</li>
+                                        <li>@victordeweerdt</li>
+                                    </ul>
+                                </div> 
+                            </section>
+                        </div>
+                            <!-- Section 2 : À propos -->
+                            <section id="a-propos">
+                                    <h1 class="dark-title-v">À propos de moi</h1>
+                                    <p class="text-justify yellow-col">Directeur Artistique et Ui/Ux designer depuis 5 ans, j'ai travaillé pour de petites (Acsan, Edouard de Seine) et grandes entreprises (Galeries Lafayette, Allianz, Panasonic) avec des problématiques toujours différentes. Ces années m'ont permis de connaitre au mieux le travail de chaque acteur du digital. Ce qui rend mon expertise et ma vision cohérentes.</p>
+                            </section>
 
-                    <!-- Section 3 : Loisirs -->
-                    <section id="loisirs">
-                    <div>
-                        <h1>Loisirs</h1>
+                            <!-- Section 3 : Loisirs -->
+                            <section id="loisirs">
+                                    <h1 class="dark-title-v">Loisirs</h1>
+                                    <div class="row yellow-col justify-content-around">
+                                        <span class="icon-v-swim icon-b"></span>
+                                        <span class="icon-bike-v icon-b"></span>
+                                        <span class="icon-pingpong-v icon-b"></span>
+                                    </div>
+                            </section>
                     </div>
-                    <div class="row">
-                        <element class="col-3 col-md-2"><img class="icon" src="img/ico-swim.svg"></element>
-                        <element class="col-3 col-md-2"><img class="icon" src="img/ico-bike.svg"></element>
-                        <element class="col-3 col-md-2"><img class="icon" src="img/ico-pingpong.svg"></element>
-                    </div>
-                    </section>
-                    </div>
-                </div>
-            </div>
 
             <!-- Partie de droite -->
-            <div id="right-side">
+            <div id="right-side" class="col-lg-8">
 
                 <!-- Header -->
-                    <header>
-                    <h1>
-                        <div>
-                            <span style="color:#EDC545;">Victor</span>
-                            <span>Deweerdt</span>
-                        </div>
-                    </h1>
-                    <p>Développeur web freelance</p>
-                    <div><hr width="10%" color="#EDC545" align=left size="1"></div>
+                    <header class="pt-10 pb-3">
+                        <h1>
+                            <div>
+                                <span>Victor</span>
+                                <span>Deweerdt</span>
+                            </div>
+                        </h1>
+                        <p class="big-p">Développeur web freelance</p>
+                        <hr width="10%" color="#EDC545" align=left size="1">
                     </header>
 
                     <!-- Section 1 : Formation -->
                     <section id="formation">
-                    <div class="head-light">
-                        <img class="icon" src="img/ico-student.svg">
-                        <h1>Formation</h1>
-                    </div>
-                    <div class="row">
-                        <div class="left-bloc">
-                            <p><span><img class="picto-1" src="img/picto-empty.svg"></span>2020</p>
-                        </div>
-                        <div class="right-bloc">
-                            <h3>Openclassrooms</h3>
-                            <p>Web developer</p>
-                            <p>Maitrise des languages de developpement HTML5, CSS3, Javascript, MongoDB & NodeJS</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="row next">
-                            <div class="left-bloc">
-                                <p><span><img class="picto-2" src="img/picto-full.svg"></span>2010 - 2014</p><p class="second-line">Lyon</p>
+                        <h1 class="title-v"><span class="icon-v-student icon-y"></span>Formation</h1>
+                        <div class="row d-flex">
+                            <div class="left-bloc col-md-4">
+                                <p><i class="fas fa-dot-circle"></i></i>2020</p>
                             </div>
-                            <div class="right-bloc">
-                                <h3>Iscom</h3>
-                                <p>Marketing et publicité</p>
-                                <p>Maitrise des outils de PAO et de communication avec un niveau de Master 1.</p>
+                            <div class="right-bloc col-md-8">
+                                <ul>
+                                    <li><h3>Openclassrooms</h3></li>
+                                    <li>Web developer</li>
+                                    <li>Maitrise des languages de developpement HTML5, CSS3, Javascript, MongoDB & NodeJS</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
+                        <div>
+                            <div class="row d-flex pt-4">
+                                <div class="left-bloc col-md-4">
+                                    <ul>
+                                        <li><i class="fas fa-circle fa-xs"></i>2010 - 2014</li>
+                                        <li>Lyon</li>
+                                    </ul>
+                                </div>
+                                <div class="right-bloc col-md-8">
+                                    <ul>
+                                        <li><h3>Iscom</h3></li>
+                                        <li>Marketing et publicité</li>
+                                        <li>Maitrise des outils de PAO et de communication avec un niveau de Master 1.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </section>
 
                     <!-- Section 2 : Expériences professionelles -->
                     <section id="experiences">
-                    <div class="head-light">
-                        <img class="icon" src="img/ico-portfolio.svg">
-                        <h1>Expérience professionelle</h1>
-                    </div>
-                    <div class="row">
-                        <div class="left-bloc">
-                            <p><span><img class="picto-1" src="img/picto-empty.svg"></span>2018 - 2020</p>
+                        <h1 class="title-v"><span class="icon-v-pencil icon-y"></span>Expérience professionelle</h1>
+                        <div class="row  d-flex">
+                            <div class="left-bloc col-md-4">
+                                <p><i class="fas fa-dot-circle"></i></i>2018 - 2020</p>
+                            </div>
+                            <div class="right-bloc col-md-8">
+                                <ul>
+                                    <li><h3>Eyesup</h3></li>
+                                    <li>Owner, Designer</li>
+                                    <li>En charge de l’ensemble des clients concernant la direction artistique, la création, le webdesign, l’intégration et la maintenance des projets</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="right-bloc">
-                            <h3>Eyesup</h3>
-                            <p>Owner, Designer</p>
-                            <p>En charge de l’ensemble des clients concernant la direction artistique, la création, le webdesign, l’intégration et la maintenance des projets</p>
+                        <div class="row d-flex pt-4">
+                            <div class="left-bloc col-md-4">
+                                <ul>
+                                    <li><i class="fas fa-circle fa-xs"></i>2016 - 2018</li>
+                                    <li>Paris</li>
+                                </ul>
+                            </div>
+                            <div class="right-bloc col-md-8">
+                                <ul>
+                                    <li><h3>Wide agency</h3></li>
+                                    <li>Directeur Artistique</li>
+                                    <li>En charge de la direction artistique pour les clients suivants : Gallery Lafayette, Allianz et ICP. J’ai travaillé en lien diect avec divers plateaux techniques.</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row next2">
-                        <div class="left-bloc">
-                            <p><span><img class="picto-2" src="img/picto-full.svg"></span>2016 - 2018</p><p class="second-line">Paris</p>
+                        <div class="row  d-flex pt-4">
+                            <div class="left-bloc col-md-4">
+                                <ul>
+                                    <li><i class="fas fa-circle fa-xs"></i>2014 - 2018</li>
+                                    <li>Paris</li>
+                                </ul>
+                            </div>
+                            <div class="right-bloc col-md-8">
+                                <ul>
+                                    <li><h3>Freelance</h3></li>
+                                    <li>UI . UX Designer</li>
+                                    <li>J’accompagne des petites et grandes marques sur des créations de projets digitaux, allant du site internet vitrine au dispositif digital complexe.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="right-bloc">
-                            <h3>Wide agency</h3>
-                            <p>Directeur Artistique</p>
-                            <p>En charge de la direction artistique pour les clients suivants : Gallery Lafayette, Allianz et ICP. J’ai travaillé en lien diect avec divers plateaux techniques.</p>
-                        </div>
-                    </div>
-                    <div class="row next2">
-                        <div class="left-bloc">
-                            <p><span><img class="picto-2" src="img/picto-full.svg"></span>2014 - 2018</p><p class="second-line">Paris</p>
-                        </div>
-                        <div class="right-bloc">
-                            <h3>Freelance</h3>
-                            <p>UI . UX Designer</p>
-                            <p>J’accompagne des petites et grandes marques sur des créations de projets digitaux, allant du site internet vitrine au dispositif digital complexe.</p>
-                        </div>
-                    </div>
                     </section>
 
                     <!-- Section 3 : recommandations -->
-                    <section id="recommandations">
-                    <div class="head-light">
-                        <img class="icon" src="img/ico-pencil.svg">
-                        <h1>Recommandations</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <p>Benoit Guilbert</p>
-                            <p>Directeur de création, Wide agency <br>benoit.guilbert@wideagency.fr</p>
+                    <section id="recommandations" class="pb-5">
+                        <h1 class="title-v"><span class="icon-v-student icon-y"></span>Recommandations</h1>
+                        <div class="row d-flex">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Benoit Guilbert</li>
+                                    <li>Directeur de création, Wide agency</li>
+                                    <li>benoit.guilbert@wideagency.fr</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Guillaume Gady</li>
+                                    <li>Directeur, Acsan</li>
+                                    <li>g.gady@acsan.fr</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <p>Guillaume Gady</p>
-                            <p>Directeur, Acsan <br>g.gady@acsan.fr</p>
-                        </div>
-                    </div>
                     </section>
 
             </div>
