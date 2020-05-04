@@ -3,11 +3,6 @@ main {
     flex-direction: row;
 }
 
-.row
-{
-  padding:0 15px;
-}
-
 @media (max-width:992px) {
   main {
     display: flex;
@@ -42,6 +37,7 @@ h3
 {
     text-transform: uppercase;
     font-weight:400;
+    margin:0;
 }
 
 p
@@ -69,6 +65,11 @@ p
 {
     background-color: #EDC545;
     padding:0 15px;
+}
+
+#right-side li
+{
+  margin:0 0 5px 0;
 }
 
 @media (min-width: 1200px) {
