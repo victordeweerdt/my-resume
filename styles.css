@@ -1,6 +1,7 @@
 main {
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 @media (max-width:992px) {
