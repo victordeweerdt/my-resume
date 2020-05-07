@@ -25,15 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-v-pencil:before {
-  content: "\e900";
-}
-.icon-v-porfolio:before {
-  content: "\e901";
-}
-.icon-v-student:before {
-  content: "\e902";
-}
 .icon-bike-v:before {
   content: "\e904";
   color: #494949;
